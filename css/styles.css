@@ -484,9 +484,12 @@ img {
 
 /* ---- -footer-continer------- */
 
-.hvdvome {
+.footer-continer {
+	margin-right: 90px;
+}
+
+.rozsulka {
 	display: flex;
-	gap: 70px;
 	align-items: baseline;
 }
 
@@ -543,7 +546,6 @@ img {
 }
 
 .footer-letter-mail {
-	position: absolute;
 	width: 358px;
 	height: 50px;
 	box-sizing: border-box;
@@ -553,20 +555,28 @@ img {
 }
 
 .sent-letter {
-	position: absolute;
 	width: 200px;
 	height: 50px;
-	margin-left: 393px;
 	justify-content: center;
+	margin-left: 12px;
+	border: none;
 	background: #2196f3;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 }
 
+.footer-letter-icon {
+margin-left: 10px;
+}
+
+.footer-form {
+	display: flex;
+}
+
 .footer-letter-mail::placeholder {
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
-.button {
+.btn-footer-text {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.87;
@@ -577,17 +587,6 @@ img {
 	color: #ffffff;
 }
 
-.footer-letter {
-	margin-left: 23px;
-}
-.srth {
-	position: relative;
-}
-.footer-letter-icon {
-	position: absolute;
-	margin-left: 550px;
-	transform: translateY(50%);
-}
 /* --------Портфоліо---------- */
 
 .potfolio-title {
@@ -700,6 +699,7 @@ img {
 
 .info {
 	margin-top: 20px;
+	margin-right: 70px;
 }
 
 .logo-contacts {
@@ -821,6 +821,7 @@ img {
 	margin-top: 4px;
 }
 
+
 .btn-form {
 	font-weight: 700;
 	font-size: 16px;
@@ -833,9 +834,8 @@ img {
 	border: none;
 	cursor: pointer;
 	padding: 10px 52px;
-	position: absolute;
-	bottom: 40px;
-	left: 164px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .form-field {
